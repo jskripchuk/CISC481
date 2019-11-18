@@ -1,0 +1,43 @@
+Iterative Deepening
+Yard 2
+Elapsed:  484.57349824905396
+States: 15 | Actions Taken: 14
+['*', 'd', 'b', 'ae', 'c'] None
+['*c', 'd', 'b', 'ae', ''] (<Direction.LEFT: 1>, 5, 1)
+['*cd', '', 'b', 'ae', ''] (<Direction.LEFT: 1>, 2, 1)
+['*c', '', 'b', 'ae', 'd'] (<Direction.RIGHT: 0>, 1, 5)
+['*', '', 'b', 'ae', 'cd'] (<Direction.RIGHT: 0>, 1, 5)
+['', '*', 'b', 'ae', 'cd'] (<Direction.RIGHT: 0>, 1, 2)
+['', '*a', 'b', 'e', 'cd'] (<Direction.LEFT: 1>, 4, 2)
+['', '*ab', '', 'e', 'cd'] (<Direction.LEFT: 1>, 3, 2)
+['', '*abe', '', '', 'cd'] (<Direction.LEFT: 1>, 4, 2)
+['*', 'abe', '', '', 'cd'] (<Direction.LEFT: 1>, 2, 1)
+['*a', 'be', '', '', 'cd'] (<Direction.LEFT: 1>, 2, 1)
+['*ab', 'e', '', '', 'cd'] (<Direction.LEFT: 1>, 2, 1)
+['*abc', 'e', '', '', 'd'] (<Direction.LEFT: 1>, 5, 1)
+['*abcd', 'e', '', '', ''] (<Direction.LEFT: 1>, 5, 1)
+['*abcde', '', '', '', ''] (<Direction.LEFT: 1>, 2, 1)
+Yard 3
+Elapsed:  0.0001533031463623047
+States: 3 | Actions Taken: 2
+['*', 'a', 'b'] None
+['*a', '', 'b'] (<Direction.LEFT: 1>, 2, 1)
+['*ab', '', ''] (<Direction.LEFT: 1>, 3, 1)
+Yard 4
+Elapsed:  0.005464315414428711
+States: 5 | Actions Taken: 4
+['*', 'a', 'bc', 'd'] None
+['*a', '', 'bc', 'd'] (<Direction.LEFT: 1>, 2, 1)
+['*ab', '', 'c', 'd'] (<Direction.LEFT: 1>, 3, 1)
+['*abc', '', '', 'd'] (<Direction.LEFT: 1>, 3, 1)
+['*abcd', '', '', ''] (<Direction.LEFT: 1>, 4, 1)
+Yard 5
+Elapsed:  0.05756092071533203
+States: 7 | Actions Taken: 6
+['*', 'a', 'cb', 'd'] None
+['*c', 'a', 'b', 'd'] (<Direction.LEFT: 1>, 3, 1)
+['*', 'a', 'b', 'cd'] (<Direction.RIGHT: 0>, 1, 4)
+['*a', '', 'b', 'cd'] (<Direction.LEFT: 1>, 2, 1)
+['*ab', '', '', 'cd'] (<Direction.LEFT: 1>, 3, 1)
+['*abc', '', '', 'd'] (<Direction.LEFT: 1>, 4, 1)
+['*abcd', '', '', ''] (<Direction.LEFT: 1>, 4, 1)

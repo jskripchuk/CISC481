@@ -1,0 +1,26 @@
+Run using:
+python trains.py
+
+THIS WILL RUN ITERATIVE DEEPENING ON ALL YARDS (AKA THIS WILL NOT FINISH BECAUSE YARD 1 IS BIG)
+
+To test problems 1-3, use:
+python trains.py --test_actions
+
+To run a program on certain default yards use:
+python trains.py --yards 3 4 5
+
+To run using A*, use:
+python trains.py --search_method A*
+
+Don't use --search_method A* if you want to use iterative deepening
+
+To run using A* on certain yards:
+python trains.py --search_method A* --yards 1 3 5
+
+To run iter deep on a custom yard, use:
+python trains.py --custom ./test_yards/yard_5
+
+To run A* on a custom yard, use:
+python trains.py --search_method A* --custom ./test_yards/yard_5
+
+Check the test_yards folder for examples on how to input your custom yards.

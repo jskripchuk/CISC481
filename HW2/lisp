@@ -1,0 +1,45 @@
+(defvar *premises-1*
+  '(((aunt ?x ?y) (sister ?x ?z) (mother ?z ?y))
+    ((aunt ?x ?y) (sister ?x ?z) (father ?z ?y))
+    ((sister Mary Sue))
+    ((sister Mary Doug))
+    ((father Doug John))
+    ((mother Sue Paul))))
+
+(defvar *goals-1*
+  '((aunt ?x ?y)))
+
+
+(defvar *premises-2*
+  '(((simple_sentence ?x ?y ?z ?u ?v) (noun_phrase ?x ?y) (verb_phrase ?z ?u ?v))
+    ((noun_phrase ?x ?y) (article ?x) (noun ?y))
+    ((verb_phrase ?x ?y ?z) (verb ?x) (noun_phrase ?y ?z))
+    ((article a))
+    ((article the))
+    ((noun man))
+    ((noun dog))
+    ((verb likes))
+    ((verb bites))))
+
+(defvar *goals-2*
+  '((simple_sentence ?x ?y ?z ?u ?v)))
+
+
+(defvar *premises-3*
+  '(((ancestor ?x ?y) (parent ?x ?y))
+    ((ancestor ?x ?y) (ancestor ?x ?z) (parent ?z ?y))
+    ((parent Mary Paul))
+    ((parent Sue Mary))))
+
+(defvar *goals-3*
+  '((ancestor ?x ?y)))
+
+
+(defvar *premises-4*
+  '(((ancestor ?x ?y) (ancestor ?x ?z) (parent ?z ?y))
+    ((ancestor ?x ?y) (parent ?x ?y))
+    ((parent Mary Paul))
+    ((parent Sue Mary))))
+
+(defvar *goals-4*
+  '((ancestor ?x ?y)))
