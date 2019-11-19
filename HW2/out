@@ -1,0 +1,228 @@
+-----
+RESOLVE 3
+[[{'name': 'simple_sentence', 'vars': ['?a5bd2695', '?79621367', '?aca2392c', '?1e40a76a', '?c240add8']}, {'name': 'noun_phrase', 'vars': ['?a5bd2695', '?79621367']}, {'name': 'verb_phrase', 'vars': ['?1e850ba8']}], [{'name': 'noun_phrase', 'vars': ['?7c045df4', '?d60b3ae4']}, {'name': 'article', 'vars': ['?7c045df4']}, {'name': 'noun', 'vars': ['?d60b3ae4']}], [{'name': 'verb_phrase', 'vars': ['?bec9fdac', '?2ea9f331', '?31dbb077']}, {'name': 'verb', 'vars': ['?bec9fdac']}, {'name': 'noun_phrase', 'vars': ['?2ea9f331', '?31dbb077']}], [{'name': 'article', 'vars': ['a']}], [{'name': 'article', 'vars': ['the']}], [{'name': 'noun', 'vars': ['man']}], [{'name': 'noun', 'vars': ['dog']}], [{'name': 'verb', 'vars': ['likes']}], [{'name': 'verb', 'vars': ['bites']}]]
+----
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'bites', '?39e76129': '?eafe8141', '?703bfa48': '?0ef8c864', '?eafe8141': 'the', '?0ef8c864': 'man'}
+BINDING 0
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'bites', '?39e76129': '?eafe8141', '?703bfa48': '?0ef8c864', '?eafe8141': 'the', '?0ef8c864': 'dog'}
+BINDING 1
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'bites', '?39e76129': '?eafe8141', '?703bfa48': '?0ef8c864', '?eafe8141': 'a', '?0ef8c864': 'man'}
+BINDING 2
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'bites', '?39e76129': '?eafe8141', '?703bfa48': '?0ef8c864', '?eafe8141': 'a', '?0ef8c864': 'dog'}
+BINDING 3
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'likes', '?39e76129': '?6e0fcee0', '?703bfa48': '?927499f0', '?6e0fcee0': 'the', '?927499f0': 'man'}
+BINDING 4
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'likes', '?39e76129': '?6e0fcee0', '?703bfa48': '?927499f0', '?6e0fcee0': 'the', '?927499f0': 'dog'}
+BINDING 5
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'likes', '?39e76129': '?6e0fcee0', '?703bfa48': '?927499f0', '?6e0fcee0': 'a', '?927499f0': 'man'}
+BINDING 6
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'dog', '?8decb0b0': '?38fb4a53', '?38fb4a53': 'likes', '?39e76129': '?6e0fcee0', '?703bfa48': '?927499f0', '?6e0fcee0': 'a', '?927499f0': 'dog'}
+BINDING 7
+?x / the
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'bites', '?43b14760': '?fb4b3d8d', '?e1a4b915': '?960247ea', '?fb4b3d8d': 'the', '?960247ea': 'man'}
+BINDING 8
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'bites', '?43b14760': '?fb4b3d8d', '?e1a4b915': '?960247ea', '?fb4b3d8d': 'the', '?960247ea': 'dog'}
+BINDING 9
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'bites', '?43b14760': '?fb4b3d8d', '?e1a4b915': '?960247ea', '?fb4b3d8d': 'a', '?960247ea': 'man'}
+BINDING 10
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'bites', '?43b14760': '?fb4b3d8d', '?e1a4b915': '?960247ea', '?fb4b3d8d': 'a', '?960247ea': 'dog'}
+BINDING 11
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'likes', '?43b14760': '?172f297c', '?e1a4b915': '?b643cdc9', '?172f297c': 'the', '?b643cdc9': 'man'}
+BINDING 12
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'likes', '?43b14760': '?172f297c', '?e1a4b915': '?b643cdc9', '?172f297c': 'the', '?b643cdc9': 'dog'}
+BINDING 13
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'likes', '?43b14760': '?172f297c', '?e1a4b915': '?b643cdc9', '?172f297c': 'a', '?b643cdc9': 'man'}
+BINDING 14
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'the', '?2f425ba8': 'man', '?8decb0b0': '?a026865a', '?a026865a': 'likes', '?43b14760': '?172f297c', '?e1a4b915': '?b643cdc9', '?172f297c': 'a', '?b643cdc9': 'dog'}
+BINDING 15
+?x / the
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'bites', '?62ff75fe': '?62ed42fe', '?060aff1c': '?74400f9e', '?62ed42fe': 'the', '?74400f9e': 'man'}
+BINDING 16
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'bites', '?62ff75fe': '?62ed42fe', '?060aff1c': '?74400f9e', '?62ed42fe': 'the', '?74400f9e': 'dog'}
+BINDING 17
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'bites', '?62ff75fe': '?62ed42fe', '?060aff1c': '?74400f9e', '?62ed42fe': 'a', '?74400f9e': 'man'}
+BINDING 18
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'bites', '?62ff75fe': '?62ed42fe', '?060aff1c': '?74400f9e', '?62ed42fe': 'a', '?74400f9e': 'dog'}
+BINDING 19
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'likes', '?62ff75fe': '?2d868173', '?060aff1c': '?4af26202', '?2d868173': 'the', '?4af26202': 'man'}
+BINDING 20
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'likes', '?62ff75fe': '?2d868173', '?060aff1c': '?4af26202', '?2d868173': 'the', '?4af26202': 'dog'}
+BINDING 21
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'likes', '?62ff75fe': '?2d868173', '?060aff1c': '?4af26202', '?2d868173': 'a', '?4af26202': 'man'}
+BINDING 22
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'dog', '?8decb0b0': '?a2de8255', '?a2de8255': 'likes', '?62ff75fe': '?2d868173', '?060aff1c': '?4af26202', '?2d868173': 'a', '?4af26202': 'dog'}
+BINDING 23
+?x / a
+?y / dog
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'bites', '?ef0d6a2f': '?a593b899', '?566676c4': '?b1575a35', '?a593b899': 'the', '?b1575a35': 'man'}
+BINDING 24
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'bites', '?ef0d6a2f': '?a593b899', '?566676c4': '?b1575a35', '?a593b899': 'the', '?b1575a35': 'dog'}
+BINDING 25
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'bites', '?ef0d6a2f': '?a593b899', '?566676c4': '?b1575a35', '?a593b899': 'a', '?b1575a35': 'man'}
+BINDING 26
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'bites', '?ef0d6a2f': '?a593b899', '?566676c4': '?b1575a35', '?a593b899': 'a', '?b1575a35': 'dog'}
+BINDING 27
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'likes', '?ef0d6a2f': '?b8751c3e', '?566676c4': '?b0792db2', '?b8751c3e': 'the', '?b0792db2': 'man'}
+BINDING 28
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'likes', '?ef0d6a2f': '?b8751c3e', '?566676c4': '?b0792db2', '?b8751c3e': 'the', '?b0792db2': 'dog'}
+BINDING 29
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'likes', '?ef0d6a2f': '?b8751c3e', '?566676c4': '?b0792db2', '?b8751c3e': 'a', '?b0792db2': 'man'}
+BINDING 30
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e
+{'?x': '?5655c87b', '?y': '?23382899', '?z': '?8b0eaca6', '?u': '?d90ff9fa', '?v': '?e288dc7e', '?5655c87b': '?147b436e', '?23382899': '?2f425ba8', '?147b436e': 'a', '?2f425ba8': 'man', '?8decb0b0': '?98dfb66c', '?98dfb66c': 'likes', '?ef0d6a2f': '?b8751c3e', '?566676c4': '?b0792db2', '?b8751c3e': 'a', '?b0792db2': 'dog'}
+BINDING 31
+?x / a
+?y / man
+?z / ?8b0eaca6
+?u / ?d90ff9fa
+?v / ?e288dc7e

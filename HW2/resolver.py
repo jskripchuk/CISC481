@@ -29,7 +29,7 @@ GOAL_2 = pred("aunt","?x","?y")
 KB_3 = [
     [pred("simple_sentence", "?x", "?y", "?z", "?u" ,"?v"),
      pred("noun_phrase", "?x", "?y"),
-     pred("verb_phrase", "?z" "?u" "?v")],
+     pred("verb_phrase", "?z", "?u", "?v")],
 
     [pred("noun_phrase", "?x", "?y"), pred("article", "?x"), pred("noun", "?y")],
     [pred("verb_phrase","?x","?y","?z"), pred("verb","?x"), pred("noun_phrase","?y","?z")],
@@ -264,9 +264,10 @@ pp = pprint.PrettyPrinter(indent=4)
 
 import queue
 
-def resolve(kb, goal, mode="bfs",max_depth=300):
-    #kb = [uniqify(x) for x in kb]
-    print(kb)
+def resolve(kb, goal, mode="dfs",max_depth=300):
+    print("MODE",mode)
+    #print(kb)
+
     #print(kb)
 
     
@@ -285,12 +286,18 @@ def resolve(kb, goal, mode="bfs",max_depth=300):
     successes = []
 
     while open_list:
+        #print("LOOP",i)
+        #print("OPEN LIST")
 
+        #pp.pprint(open_list)
+
+        kb = [uniqify(x) for x in kb]
         #print(open_list.qsize())
         #print(lst(open_list))
         if mode == "dfs":
             current_node = open_list.pop()
         else:
+            #print(open_list.queue)
             if open_list.qsize() == 0:
                 break
             current_node = open_list.get()
@@ -306,23 +313,46 @@ def resolve(kb, goal, mode="bfs",max_depth=300):
         pp.pprint(current_bindings)
         print()
         """
+        
 
         #to_resolve = kb[0][0]
         #print("START RESOLVING")
         for clause in kb:
-           # print(current_clause)
+            #pp.pprint(clause)
+            #print(current_clause)
 
             #current_clause = uniqify(clause)
+            #clause = uniqify(clause)
+            #print(clause)
             #print(current_clause)
             to_resolve = clause[0]
             predicate = current_clause[0]
             #or predicate in current_clause:
             if can_resolve(predicate,to_resolve):
+                """
                 #print("RESOLVING",predicate,to_resolve)
-                #print("WITH BINDINGS",current_bindings)
+                #print("")
+                #print("RESOLVING")
+                pp.pprint(predicate)
+                #print("WITH")
+                pp.pprint(to_resolve)
+                #print("WITH BINDINGS")
+                pp.pprint(current_bindings)
+                """
                 
-                new_clause = copy.deepcopy(clause[1:])
-                new_clause.extend(current_clause[1:])
+                infinite_loop = False
+
+                if infinite_loop:
+                    new_clause = copy.deepcopy(clause[1:])
+                    new_clause.extend(current_clause[1:])
+                else:
+                    new_clause = copy.deepcopy(current_clause[1:])
+                    new_clause.extend(clause[1:])
+                    
+
+                #pp.pprint(clause)
+               # print("RESULTING IN")
+                #pp.pprint(new_clause)
                 #print(clause[1:])
                 #print(current_clause[1:])
                 #print(new_clause)
@@ -346,6 +376,7 @@ def resolve(kb, goal, mode="bfs",max_depth=300):
                             unify_results
                         ))
 
+
                 if new_clause == [] and unify_results != None:
                 #    print("WE REDDIT, DID IT")
                     successes.append(unify_results)
@@ -357,13 +388,17 @@ def resolve(kb, goal, mode="bfs",max_depth=300):
             return None
         
         i = i+1
+        #input()
+        #print("#################")
+        #input()
         #print("############")
 
     #print("YEET")
 
     #print("HUGE SUCCESS",successes)
-
+    
     for i,bindings in enumerate(successes):
+        #print(bindings)
         print("BINDING",i)
         for var in goal["vars"]:
             b = binding(var, bindings)
@@ -372,20 +407,28 @@ def resolve(kb, goal, mode="bfs",max_depth=300):
     return 0
 
 def test_resolve():
+    
+    """
     print("RESOLVE 1")
-    res = resolve(KB_1,GOAL_1 )
+    res = resolve(KB_1,GOAL_1,mode="bfs")
     #print(res)
     print("RESOLVE 2")
-    res = resolve(KB_2,GOAL_2 )
+    res = resolve(KB_2,GOAL_2,mode="bfs")
+    """
+    
+    
+    #print("RESOLVE 3")
+    #res = resolve(KB_3,GOAL_3)
 
-    print("RESOLVE 3")
-    res = resolve(KB_3,GOAL_3)
+
+    
 
     print("RESOLVE 4")
-    res = resolve(KB_4,GOAL_4)
+    res = resolve(KB_4,GOAL_4,mode="bfs")
 
     print("RESOLVE 5")
-    res = resolve(KB_5,GOAL_5)
+    res = resolve(KB_5,GOAL_5,mode="bfs")
+    
     #print(res)
     #print(res)
 
