@@ -1,0 +1,8 @@
+(defvar *premises-4*
+  '(((ancestor ?x ?y) (ancestor ?x ?z) (parent ?z ?y))
+    ((ancestor ?x ?y) (parent ?x ?y))
+    ((parent Mary Paul))
+    ((parent Sue Mary))))
+
+(defvar *goals-4*
+  '((ancestor ?x ?y)))

@@ -1,0 +1,66 @@
+########################################
+*premises-1*:
+Resolving using Depth First Search
+----------------------------------------
+[?x/Mary, ?y/John]
+[?x/Mary, ?y/Paul]
+########################################
+
+
+########################################
+*premises-2*:
+Resolving using Depth First Search
+----------------------------------------
+[?x/the, ?y/dog, ?z/bites, ?u/the, ?v/man]
+[?x/the, ?y/dog, ?z/bites, ?u/the, ?v/dog]
+[?x/the, ?y/dog, ?z/bites, ?u/a, ?v/man]
+[?x/the, ?y/dog, ?z/bites, ?u/a, ?v/dog]
+[?x/the, ?y/dog, ?z/likes, ?u/the, ?v/man]
+[?x/the, ?y/dog, ?z/likes, ?u/the, ?v/dog]
+[?x/the, ?y/dog, ?z/likes, ?u/a, ?v/man]
+[?x/the, ?y/dog, ?z/likes, ?u/a, ?v/dog]
+[?x/the, ?y/man, ?z/bites, ?u/the, ?v/man]
+[?x/the, ?y/man, ?z/bites, ?u/the, ?v/dog]
+[?x/the, ?y/man, ?z/bites, ?u/a, ?v/man]
+[?x/the, ?y/man, ?z/bites, ?u/a, ?v/dog]
+[?x/the, ?y/man, ?z/likes, ?u/the, ?v/man]
+[?x/the, ?y/man, ?z/likes, ?u/the, ?v/dog]
+[?x/the, ?y/man, ?z/likes, ?u/a, ?v/man]
+[?x/the, ?y/man, ?z/likes, ?u/a, ?v/dog]
+[?x/a, ?y/dog, ?z/bites, ?u/the, ?v/man]
+[?x/a, ?y/dog, ?z/bites, ?u/the, ?v/dog]
+[?x/a, ?y/dog, ?z/bites, ?u/a, ?v/man]
+[?x/a, ?y/dog, ?z/bites, ?u/a, ?v/dog]
+[?x/a, ?y/dog, ?z/likes, ?u/the, ?v/man]
+[?x/a, ?y/dog, ?z/likes, ?u/the, ?v/dog]
+[?x/a, ?y/dog, ?z/likes, ?u/a, ?v/man]
+[?x/a, ?y/dog, ?z/likes, ?u/a, ?v/dog]
+[?x/a, ?y/man, ?z/bites, ?u/the, ?v/man]
+[?x/a, ?y/man, ?z/bites, ?u/the, ?v/dog]
+[?x/a, ?y/man, ?z/bites, ?u/a, ?v/man]
+[?x/a, ?y/man, ?z/bites, ?u/a, ?v/dog]
+[?x/a, ?y/man, ?z/likes, ?u/the, ?v/man]
+[?x/a, ?y/man, ?z/likes, ?u/the, ?v/dog]
+[?x/a, ?y/man, ?z/likes, ?u/a, ?v/man]
+[?x/a, ?y/man, ?z/likes, ?u/a, ?v/dog]
+########################################
+
+
+########################################
+*premises-4*:
+Resolving using Depth First Search
+----------------------------------------
+ERR: Max Depth of 300 Reached
+Resolution Failed
+########################################
+
+
+########################################
+*premises-3*:
+Resolving using Depth First Search
+----------------------------------------
+ERR: Max Depth of 300 Reached
+Resolution Failed
+########################################
+
+

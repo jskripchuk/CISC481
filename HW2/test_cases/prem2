@@ -1,0 +1,13 @@
+(defvar *premises-2*
+  '(((simple_sentence ?x ?y ?z ?u ?v) (noun_phrase ?x ?y) (verb_phrase ?z ?u ?v))
+    ((noun_phrase ?x ?y) (article ?x) (noun ?y))
+    ((verb_phrase ?x ?y ?z) (verb ?x) (noun_phrase ?y ?z))
+    ((article a))
+    ((article the))
+    ((noun man))
+    ((noun dog))
+    ((verb likes))
+    ((verb bites))))
+
+(defvar *goals-2*
+  '((simple_sentence ?x ?y ?z ?u ?v)))

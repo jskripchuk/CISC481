@@ -1,0 +1,10 @@
+(defvar *premises-1*
+  '(((aunt ?x ?y) (sister ?x ?z) (mother ?z ?y))
+    ((aunt ?x ?y) (sister ?x ?z) (father ?z ?y))
+    ((sister Mary Sue))
+    ((sister Mary Doug))
+    ((father Doug John))
+    ((mother Sue Paul))))
+
+(defvar *goals-1*
+  '((aunt ?x ?y)))
