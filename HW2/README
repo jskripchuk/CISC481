@@ -1,0 +1,23 @@
+James Skripchuk
+CISC481
+Programming Assignment 2
+Resolution Theorem Prover
+
+View how to use using:
+python3 resolver.py -h
+
+
+To run test cases: (Method defaults to dfs)
+python3 resolver.py --test_cases 
+
+Test cases using bfs:
+python3 resolver.py --test_cases --method bfs
+
+Test a specific folder:
+python3 resolver.py --folder /path/to/folder
+
+Test a specific file:
+python3 resolver.py --file /path/to/file
+
+Run helper function test:
+python3 resolve.rpy --helper_function_test

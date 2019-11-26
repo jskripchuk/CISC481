@@ -1,4 +1,4 @@
-#STolen from
+#Stolen from
 #https://norvig.com/lispy.html
 
 Symbol = str              # A Scheme Symbol is implemented as a Python str
